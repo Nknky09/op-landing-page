@@ -78,10 +78,13 @@ a {
   width: 500px;
   height: 250px;
   border: 1px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 50px;
+}
+
+.placeholder img {
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
 }
 
 
@@ -163,7 +166,43 @@ a {
   height: 300px;
   border: 1px solid black;
   align-items: center;
+  justify-content: center;
 }
+
+.signup-container {
+  height: 150px;
+  width: 850px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  font-weight: bold;
+  font-size:24px;
+  color: white;
+  margin: 0;
+}
+
+.signup-text {
+  color: white;
+  margin: 0;
+}
+
+.signup-button {
+  background-color: #3882f6;
+  color:white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 28px;
+  border-radius: 8px;
+  border: 2px white solid;
+  cursor: pointer;
+}
+
 
 .footer {
   height: 100px;
